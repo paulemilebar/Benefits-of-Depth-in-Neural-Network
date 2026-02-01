@@ -16,12 +16,12 @@ The repo focuses on two main ideas:
 
 ### Notebooks (3 experiments)
 
-- **trial_of_approximation_triangle_wave_with_theorical_results.ipynb`**  
+- **`trial_of_approximation_triangle_wave_with_theorical_results.ipynb`**  
   Here, we wanted naively to reproduce the results of Theorem 1.1 with exactly the same hypotheses. We faced directly to the issue that it is unfeasible in pratice.
 
 - **`approximation_polynoms_and_trianglewave.ipynb`**  
 
-  We aim to approximate 2 oscillatory target function built from  a **degree-6 polynomial** and the **triangle wave** function composed **L = 4** times.
+  We aim to approximate 2 oscillatory target function built from  a **degree-6 polynomial** and the **triangle wave** function composed **L = 3** times.
 
   We train 1D fully-connected **ReLU** networks with:
 
@@ -36,7 +36,7 @@ The repo focuses on two main ideas:
 
   - Then, with those different pair (k, w*(k)),, we compute the number of parameters and the number of total nodes of the network.
 
-  NOTE : In this notebook, we test for our 2 target functions : the polynomial function and the wave triangle function composed L = 4 times.
+  NOTE : In this notebook, we test for our 2 target functions : the polynomial function and the wave triangle function composed L = 3 times.
 
 - **`limitation_of_depth.ipynb`**  
   Simple classification experiment illustrating the limitation stated in Theorem 1.2:
@@ -48,7 +48,7 @@ The repo focuses on two main ideas:
 
 ## Results structure
 
-We did the experiments on GOOGLE COLAB using a GPU T4 for better results (by better, we mean getting closer to the theorical results). So we saved all the results in a dedicated folder : `Results/` (plots + saved metrics)
+We did the experiments on GOOGLE COLAB using a GPU T4 for better results (by better, we mean getting closer to the theorical results). So we saved all the results in a dedicated folder : `Results/` (plots + saved metrics SUMMARY)
 But, of course, the code presented in this repo will give the exact same results. 
 
 
